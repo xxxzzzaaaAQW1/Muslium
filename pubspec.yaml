@@ -1,0 +1,28 @@
+name: _
+description: "An elegant Islamic app designed in luxurious black and gold, providing accurate prayer times, a full Quran, Qibla compass, and a digital tasbih, all within a user-friendly interface."
+publish_to: "none"
+version: 1.0.0
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.1.0
+  geolocator: 13.0.4
+  shared_preferences: ^2.0.0
+  intl: 0.20.2
+  flutter_qiblah: ^3.0.0
+  http: ^1.0.0
+  permission_handler: ^12.0.0
+  flutter_local_notifications: ^19.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
